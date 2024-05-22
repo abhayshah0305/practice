@@ -6,7 +6,7 @@ public class checkWatermelonSlicing {
         Scanner key = new Scanner(System.in);
         System.out.print("Enter the Weight of the Watermelon:");
         int num = key.nextInt();
-        if(num == 2 || num % 2 == 1){
+        if(num == 2 || num % 2 != 0){
             System.out.print("Not Possible!");
         }
         else{
