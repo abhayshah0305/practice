@@ -12,6 +12,6 @@ public class checkWatermelonSlicing {
         else{
             System.out.print("Possible!");
         }
-
+        key.close();
     }    
 }
