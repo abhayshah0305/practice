@@ -7,6 +7,7 @@ public class pattern {
         pattern3(5);
         pattern4(5);
         pattern5(5);
+        pattern6(5);
     }
     static void pattern1(int n){
         for(int row = 1; row <= n; row++){
@@ -52,5 +53,25 @@ public class pattern {
             }
             System.out.println();
         }
+        System.out.println();
     }
+    static void pattern6(int n){
+        // outer loop to handle rows
+        for (int i = n; i >= 1; i--) {
+ 
+            // inner loop to print spaces.
+            for (int j = 1; j < i; j++) {
+                System.out.print(" ");
+            }
+ 
+            // inner loop to print stars.
+            for (int j = 0; j <= n - i; j++) {
+                System.out.print("*");
+            }
+ 
+            // printing new line for each row
+            System.out.println();
+        }
+    }
+    
 }
