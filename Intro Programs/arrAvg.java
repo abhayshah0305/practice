@@ -17,5 +17,7 @@ public class arrAvg {
             arr[i] = key.nextInt();
         }
        System.out.print(avgarr(arr)); 
+       key.close();
     }
+  
 }
