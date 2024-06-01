@@ -1,4 +1,4 @@
-package patterns;
+
 
 public class patternstest {
     public static void main(String[] args) {
