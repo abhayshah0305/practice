@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class arrAvg {
@@ -16,6 +17,7 @@ public class arrAvg {
         for(int i=0; i<arrlength;i++){
             arr[i] = key.nextInt();
         }
+        System.out.println(Arrays.toString(arr));
        System.out.print(avgarr(arr)); 
        key.close();
     }
